@@ -53,10 +53,6 @@ echo Downloading Zoom
 wget -O zoom.exe "https://zoom.us/client/5.14.11.17466/ZoomInstallerFull.exe?archType=x64"
 @REM start /wait zoom.exe
 
-echo Downloading League Of Legends
-wget -O lol.html "https://signup.leagueoflegends.com/pt-br/signup/redownload"
-@REM start /wait lol.html
-
 echo Downloading Remote Mouse
 wget -O remotem.exe "https://www.remotemouse.net/downloads/RemoteMouse.exe"
 @REM start /wait remotem.exe
