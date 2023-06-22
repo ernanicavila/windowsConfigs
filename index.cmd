@@ -5,10 +5,8 @@
 @REM move wget.exe C:\WINDOWS\System32
 
 echo Downloading OperaGX
-wget -O opera.html "https://www.opera.com/pt-br/computer/thanks?ni=eapgx&os=windows"
-start /wait opera.html
-echo Install Opera 
-pause
+wget -O opera.exe "https://net.geo.opera.com/opera_gx/stable/windows"
+start /wait opera.exe
 
 echo Downloading Steam
 wget -O steam.exe "https://cdn.akamai.steamstatic.com/client/installer/SteamSetup.exe"
